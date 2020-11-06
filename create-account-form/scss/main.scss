@@ -1,0 +1,81 @@
+@import "variables";
+@import "globals";
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form{
+    display: flex;
+    background-color:#fff;
+    padding: 3rem;
+    box-shadow: 0 0.1px 1.9px rgba(0, 0, 0, 0.026),0 0.3px 4.3px rgba(0, 0, 0, 0.037), 0 0.5px 7.7px rgba(0, 0, 0, 0.046), 0 0.8px 12.8px rgba(0, 0, 0, 0.054), 0 1.3px 21.2px rgba(0, 0, 0, 0.063),0 2.3px 37px rgba(0, 0, 0, 0.074);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Mulish;
+
+    & h1{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.features{
+    background: $purple-gradient;
+    padding: 5rem 3rem;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 10rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.4rem;
+    font-family: mulish;
+    font-weight: 600;
+}
+
+input::placeholder{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.block {
+    margin: 3rem 0;
+    color: #fff;
+    & .fa-check{
+        font-size: 1.6rem;
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.212);
+        padding: 0.5rem;
+        border-radius: 50%;
+        margin: 1rem 0;
+    }
+
+    & h2{
+        margin: 1rem 0;
+    }
+}
+
+
+
+.checkbox{
+    margin-right: 1rem;
+    width: 0;
+}
+
+.check{
+    display: flex;
+    text-align: left;
+}

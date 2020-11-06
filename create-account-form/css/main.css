@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+input {
+  width: 30rem;
+  padding: 0.8rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-1 {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #6E59CE;
+  color: #ffffff;
+  margin: 3.5rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 3rem;
+  -webkit-box-shadow: 0 0.1px 1.9px rgba(0, 0, 0, 0.026), 0 0.3px 4.3px rgba(0, 0, 0, 0.037), 0 0.5px 7.7px rgba(0, 0, 0, 0.046), 0 0.8px 12.8px rgba(0, 0, 0, 0.054), 0 1.3px 21.2px rgba(0, 0, 0, 0.063), 0 2.3px 37px rgba(0, 0, 0, 0.074);
+          box-shadow: 0 0.1px 1.9px rgba(0, 0, 0, 0.026), 0 0.3px 4.3px rgba(0, 0, 0, 0.037), 0 0.5px 7.7px rgba(0, 0, 0, 0.046), 0 0.8px 12.8px rgba(0, 0, 0, 0.054), 0 1.3px 21.2px rgba(0, 0, 0, 0.063), 0 2.3px 37px rgba(0, 0, 0, 0.074);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Mulish;
+}
+
+.login-form h1 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  background: linear-gradient(347deg, #6d58ce -100%, #ba91e9 100%);
+  padding: 5rem 3rem;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 10rem;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+label {
+  font-size: 1.4rem;
+  font-family: mulish;
+  font-weight: 600;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+input::-ms-input-placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.block {
+  margin: 3rem 0;
+  color: #fff;
+}
+
+.block .fa-check {
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.212);
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.block h2 {
+  margin: 1rem 0;
+}
+
+.checkbox {
+  margin-right: 1rem;
+  width: 0;
+}
+
+.check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
