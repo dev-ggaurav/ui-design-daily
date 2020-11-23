@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather:wght@700&family=Open+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem;
+    min-height: 100vh;
+    background-color: #E9EDF2;
+}
+
+img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+button{
+    padding:1rem 2rem;
+    border-radius: 5px;
+    border: 2px solid $dark-blue;
+    background: #ffffff;
+    color: $dark-blue;
+    cursor: pointer;
+}

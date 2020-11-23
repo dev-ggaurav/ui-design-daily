@@ -1,0 +1,64 @@
+@import "variables";
+@import "globals";
+
+h2{
+    font-size: 2.6rem;
+    margin: 2rem 0;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-family: Merriweather;
+    line-height: 1.8;
+}
+
+p{
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    font-family: 'IBM Plex Sans';
+}
+
+main{
+    padding: 5rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow:
+  0 0px 15.2px -16px rgba(0, 0, 0, 0.04),
+  0 0px 51.2px -16px rgba(0, 0, 0, 0.06),
+  0 0px 229px -16px rgba(0, 0, 0, 0.1);
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 2rem;
+}
+
+.right-column{
+    background-color: $dark-blue;
+    color: #ffffff;
+    padding: 3rem;
+    border-radius: 10px;
+    height: 40rem;
+}
+
+.left-column{
+    color: $text-blue;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.card{
+    padding-right:1.5rem;
+}
+
+.cta-1{
+    margin: 5rem 0;
+}
