@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: Poppins,sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #201E35;
+  color: #ffffff;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.cta-1 {
+  background-color: #645ED2;
+  border: none;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  border-radius: 99px;
+  margin-top: 5rem;
+}
+
+.cta-2 {
+  border: none;
+  background: none;
+  color: #645ED2;
+  padding: 1rem 0;
+  margin-top: 5rem;
+}
+
+.fa {
+  font-size: 2.4rem;
+  padding: 0.8rem;
+  color: #6C6AA1;
+  border: 1px solid #6d6ba22f;
+  border-radius: 50%;
+}
+
+.main {
+  background-color: #24233C;
+  padding: 5rem;
+}
+
+.hero-p {
+  font-size: 2.2rem;
+  padding: 2rem 0;
+}
+
+.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 5rem 0;
+}
+
+.card {
+  padding-right: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
