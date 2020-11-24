@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Montserrat,sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3rem;
+    background-color: #ECEEF5;
+}
+
+li{
+    list-style: none;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 2rem 3rem;
+    border: 1px solid #c0c1c5;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    font-size: 1.8rem;
+}
+
+.footer{
+    background-color: #ffffff;
+    padding: 5rem;
+    border-radius: 15px;
+    box-shadow:
+    0 0px 5.3px rgba(0, 0, 0, 0.073),
+    0 0px 17.9px rgba(0, 0, 0, 0.107),
+    0 0px 80px rgba(0, 0, 0, 0.18);
+}
+
+.footer-link{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1A2250;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-link:hover{
+    color: #688DFF;
+}
+
+.link-1{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1A2250;
+}
+
+p{
+    padding: 2rem 0;
+}
+
+.cta-1{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+    border: none;
+    background: linear-gradient(11deg, rgba(139,205,255,1) -100%, rgba(104,136,243,1) 100%);
+    border-radius: 8px;
+    font-size: 1.8rem;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 678px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr;
+    }
+
+    .block{
+        margin: 0 2rem;
+    }
+  }
