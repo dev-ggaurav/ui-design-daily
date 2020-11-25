@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: Mulish,sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #F6F6FA;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input{
+    padding: 1.5rem 2rem;
+}
+
+.cta-1{
+    padding: 2rem 3rem;
+    background-color: #241381;
+}
+
+.cta-2{
+    background-color: #442EBA;
+    margin-left: 1rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 3rem;
+}
+
+.nav-link{
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #442EBA;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.hero{
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.hero-content{
+    padding: 5rem 2rem 0 0;
+}
+
+.hero-img{
+    padding: 2rem;
+}
+
+h1{
+    font-size: clamp(3.8rem,6.5vw,5.8rem);
+}
+
+h3{
+    font-size: clamp(2.1rem,2.8vw,2.6rem);
+    font-weight: 400;
+    margin: 3rem 0;
+}
+
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    background-color:#ffffff ;
+    padding: 3rem;
+    box-shadow:
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+
+}
+
+.card{
+    text-align: center;
+}
+
+.card img{
+    max-width: 8rem;
+}
+
+.card p{
+    font-size: 1.4rem;
+}
+
+footer{
+    background-color: #241381;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem;
+}
+
+.foot-logo{
+    width: 5rem;
+    padding: 2rem 0;
+}
+
+
+
+@media only screen and (min-width: 850px) {
+    
+    .cards-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+  }
+
+
+ 
+
+@media only screen and (min-width: 600px) {
+    
+    .hero{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        text-align: left;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        padding: 3rem;
+        text-align: left;
+    }
+
+    footer h1{
+        font-size: 3.6rem;
+    }
+
+    footer h3{
+        font-size: 1.8rem;
+    }
+
+    .col-1{
+        padding-right: 5rem;
+    }
+    
+}
